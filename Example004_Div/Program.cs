@@ -1,2 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿double numA = 12;
+double numB = 5;
+Console.WriteLine(numA / numB);
+
+//обрати внимние, для того чтобы консоль выдала дробное число, 
+//нужно указать в контейнере переменной - "double" позволяющая работать с вещественными числами, 
+//в отличие от "int" 
